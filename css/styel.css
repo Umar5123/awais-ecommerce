@@ -708,12 +708,6 @@ footer hr{
     }
 }
 @media screen and (max-width:625px){
-    .hero .inner{
-        height: 180vh;
-    }
-    .good-product .inner{
-        height: 150vh;
-    }
     .brand .inner{
      flex-direction: column; 
     }
