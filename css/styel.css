@@ -64,12 +64,12 @@ header nav{
 /* hero */
 .hero{
     background: radial-gradient(#fff,#ffd6d6);
+    padding: 80px 0;
 }
 .hero .inner{
     display: flex;
     align-items: center;
     gap: 50px;
-    height: 90vh;
 }
 .hero-content{
     max-width: 580px;
@@ -169,7 +169,7 @@ header nav{
 }
 /* good product */
 .good-product{
-    padding: 30px 0px;
+    padding: 60px 0px;
     background: radial-gradient(#fff,#ffd6d6);
 }
 .good-product .inner{
@@ -177,7 +177,6 @@ header nav{
     justify-content: center;
     align-items: center;
     gap: 50px;
-    height: 70vh;
 }
 .good-product-content{
     max-width: 500px;
@@ -594,9 +593,12 @@ footer hr{
         display: flex;
         justify-content: center;
     }
+
+    .hero{
+        padding: 30px 0;
+    }
     .hero .inner{
         flex-direction: column;
-        height: 210vh;
     }
     .hero .hero-content{
         max-width: 100%;
@@ -627,7 +629,7 @@ footer hr{
     }
     .good-product .inner{
         flex-direction: column;
-        height: 200vh;
+        gap: 30px;
     }
     .good-product-content{
         text-align: center;
